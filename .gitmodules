@@ -4,3 +4,4 @@
 [submodule "FNA"]
 	path = FNA
 	url = https://github.com/LoLXD8783/TFNAF
+	branch = qopt
