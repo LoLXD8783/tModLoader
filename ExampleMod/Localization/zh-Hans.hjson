@@ -23,7 +23,11 @@ Mods: {
 
 		// Currencies.ExampleCustomCurrency: example items
 		// DamageClasses.ExampleDamageClass.DisplayName: example damage
-		Keybinds.RandomBuff.DisplayName: 随机增益
+
+		Keybinds: {
+			RandomBuff.DisplayName: 随机增益
+			// LearningExample.DisplayName: Learning Example
+		}
 
 		NPCs: {
 			// ExampleCustomAISlimeNPC.DisplayName: Flutter Slime
@@ -273,7 +277,11 @@ Mods: {
 			ExampleHood: {
 				// DisplayName: Example Hood
 				// Tooltip: This is a modded hood.
-				// SetBonus: "{$CommonItemTooltip.PercentReducedManaCost}"
+				/* SetBonus:
+					'''
+					Double tap or hold {0} to toggle various armor shadow effects
+					{$CommonItemTooltip.PercentReducedManaCost@1}
+					''' */
 			}
 
 			ExampleLeggings: {
@@ -711,6 +719,11 @@ Mods: {
 				// Tooltip: This is a modded sword.
 			}
 
+			ExampleMultiplePrefixCategoryWeapon: {
+				// DisplayName: Example Multiple Prefix Category Weapon
+				// Tooltip: This can receive and keep both melee and magic prefixes
+			}
+
 			ExampleWhip: {
 				// DisplayName: Example Whip
 				/* Tooltip:
@@ -919,6 +932,26 @@ Mods: {
 				// Tooltip: This is a modded sand block
 			}
 
+			TileObjectDataShowcaseStyle0: {
+				// DisplayName: TileObjectData Showcase Style 0 - Gold
+				// Tooltip: Place between gold ore tiles
+			}
+
+			TileObjectDataShowcaseStyle1: {
+				// DisplayName: TileObjectData Showcase Style 1 - Silver
+				// Tooltip: Place between silver ore tiles
+			}
+
+			TileObjectDataShowcaseStyle2: {
+				// DisplayName: TileObjectData Showcase Style 2 - Copper
+				// Tooltip: Place between copper ore tiles
+			}
+
+			TileObjectDataShowcaseStyle3: {
+				// DisplayName: TileObjectData Showcase Style 3 - ExampleBlock
+				// Tooltip: Place between ExampleBlock tiles
+			}
+
 			ExampleRocket: {
 				// DisplayName: Example Rocket
 				// Tooltip: "{$ItemTooltip.RocketI}"
@@ -969,6 +1002,16 @@ Mods: {
 
 			ExampleSignItem: {
 				// DisplayName: Example Sign
+				// Tooltip: ""
+			}
+
+			ExampleCustomFramingTileItem: {
+				// DisplayName: Example Custom Framing Tile Item
+				// Tooltip: ""
+			}
+
+			CustomItemDrawingShowcase: {
+				// DisplayName: Custom Item Drawing Showcase
 				// Tooltip: ""
 			}
 		}

@@ -46,7 +46,10 @@
 		// Mods Menu
 		"ModsModsList": "Mods List",
 		"ModsEnableAll": "Enable All",
+		"ModsEnableAllConfirm": "Are you sure you want to enable all mods?",
 		"ModsDisableAll": "Disable All",
+		"ModsDisableAllConfirm": "Are you sure you want to disable all mods?",
+		"YesDontAskAgain": "Yes, don't ask again",
 		"ModsReloadMods": "Reload Mods",
 		"ModsForceReload": "Force Reload",
 		"ModsOpenModsFolders": "Open Mods Folders",
@@ -282,6 +285,7 @@
 		"InstallPackLocalDesc": "Disables all mods & enables the modpack using\nfrozen mod versions found in Mod Pack",
 		"ModPackMismatch": "Last Mod Pack: {0}",
 		"ModPackDelete": "Delete Mod Pack",
+		"ModPackDisableToDelete": "Remove Mod Pack to Delete",
 
 		// ModNet/Multiplayer
 		"MPSyncingMods": "Syncing Mods",
@@ -355,6 +359,10 @@
 		"MBShowMSClient": "Show client side only mods",
 		"MBShowMSServer": "Show server side only mods",
 		"MBShowMSNoSync": "Show no sync only mods",
+		"MBTagsSelected": "Tags:",
+		"MBTagsCategories": "Categories: {0}",
+		"MBTagsLanguage": "Language: {0}",
+		"MBTagsClear": "Clear all tag selections",
 		"MBClearSpecialFilter": "Clear Special Filter: {0}",
 		"MBOfflineWithReason": "Offline ({0})",
 		"MBBusy": "Busy",
@@ -427,6 +435,8 @@
 		"AutomaticallyReloadAndEnableModsLeavingModBrowserNo": "Automatically Enable and Reload Mods When Leaving Mod Browser: Off",
 		"AutomaticallyReloadRequiredModsLeavingModsScreenYes": "Automatically Reload Required Mods When Leaving Mods Screen: On",
 		"AutomaticallyReloadRequiredModsLeavingModsScreenNo": "Automatically Reload Required Mods When Leaving Mods Screen: Off",
+		"ShowConfirmationWindowWhenEnableDisableAllModsYes": "Show Confirmation Window For Enable/Disable All Mods: On",
+		"ShowConfirmationWindowWhenEnableDisableAllModsNo": "Show Confirmation Window For Enable/Disable All Mods: Off",
 		"DontShowAgain": "Don't show again",
 		"ModControls": "Mod Controls",
 
@@ -487,6 +497,7 @@
 		"DiscordLink": "Find Help on the Discord Server",
 		"MSPortToLatest": "Run tModPorter",
 		"MSFirstLaunchModderWelcomeMessage": "Welcome to the Develop Mods menu. This menu is for those making mods. Here you'll be able to build your mod.\n\nIf you are new to making mods, please click the \"View on GitHub\" button below to visit our wiki and look for the \"I am new to modding\" section.",
+		"MSNoModSourcesLinkToBasicModdingGuide": "There are no mod sources yet.\n\nIf you are new to modding, please click here to view the \"Basic tModLoader Modding Guide\" which will guide you through your first mod.",
 		"MSNetSDKNotFound": "Making mods for tModLoader requires the .NET {0} SDK to be installed, but it has not been detected. Click the \"Download .NET {0} SDK\" button below for installation instructions. After installing, you may need to restart tModLoader.",
 		"DownloadNetSDK": "Download .NET SDK",
 		"DevModsInSandbox": "tModLoader cannot develop mods while running in a sandbox (such as Flatpak). Please make sure to install Steam directly on your system.",
@@ -972,6 +983,7 @@
 	},
 	"Mods": {
 		"ModLoader.Unloaded": "Unloaded",
+		"ModLoader.Prefixes.UnloadedPrefix.Tooltip": "Prefix from unloaded mod: {0}",
 		"ModLoader.Items.AprilFools.DisplayName": "April Fools Joke",
 		"ModLoader.Items.StartBag.DisplayName": "Starting Bag",
 		"ModLoader.Items.StartBag.Tooltip": "Some starting items couldn't fit in your inventory\n{$CommonItemTooltip.RightClickToOpen}",
