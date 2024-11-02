@@ -1,4 +1,5 @@
 name: Build tModLoader
+#NOTE: this doesn't auto sync to other branches. 
 
 env:
     DevBranch: 1.4.4
@@ -50,12 +51,6 @@ jobs:
         run: |
           echo "Attempting get previous version id"
           version=$(git describe --tags --abbrev=0)
-          if [ ${{github.ref}} = 'refs/heads/${{env.StableBranch}}' ] ; then
-            version=$(git describe --tags --abbrev=0 --exclude v????.??.2*)
-          fi
-          if [ ${{github.ref}} = 'refs/heads/${{env.PreviewBranch}}' ] ; then
-            version=$(git describe --tags --abbrev=0 --exclude v????.??.1*)
-          fi
           
           echo "Previous Version is: $version"
           regex="^v([0-9]+).([0-9]+).([0-9]+).([0-9]+)?$"
